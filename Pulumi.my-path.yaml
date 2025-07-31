@@ -1,0 +1,6 @@
+config:
+  gcp:project: oe-anywhere-my-path-prod
+  poc-monitoring-alerts:environment: prod
+  poc-monitoring-alerts:resource:
+    run: true
+  poc-monitoring-alerts:system_name: MyPath

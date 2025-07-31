@@ -1,0 +1,10 @@
+config:
+  gcp:project: oe-lams-prod
+  poc-monitoring-alerts:environment: prod
+  poc-monitoring-alerts:system_name: LearnCraft
+  poc-monitoring-alerts:resource:
+    gke:
+      namespace: learncraft-prod
+      pool_name: pool-1
+    sql:
+      instance_id: learncraft-prod

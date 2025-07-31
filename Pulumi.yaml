@@ -1,0 +1,11 @@
+name: poc-monitoring-alerts
+description: centralizes the management and creation of GCP projects
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: gcp-python
